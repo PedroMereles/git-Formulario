@@ -1,0 +1,193 @@
+/* # cambiar estilo a error
+============================================*/
+.controls > .error {
+    color: #b94a48;
+    display: inline-block;
+    *display: inline;
+    padding-left: 5px;
+    vertical-align: middle;
+    *zoom: 1;
+}
+/* # estilo de pagina
+============================================*/
+.container  {
+    width: 650px;
+    margin: auto;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor-central{
+    background-image: url("992689.jpg") auto; 
+    background-size: contain;
+    display:flex ;
+}
+
+h2 {
+    text-align: center;
+  color: white;
+    padding: 15px;
+}
+h3{
+    padding: 5px;
+}
+hr{
+    background:  #eeeeee;
+    border: 15% solid;
+ 
+
+}
+.letra{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 4px;
+    display:block;
+
+}
+
+p{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 200%;
+    padding-left: 5px;
+}
+
+.margen {
+    text-align: center;
+    margin-bottom: 0px;
+    color: whitesmoke;
+}
+.form-register{
+    width:80%;
+    max-width: 70%;
+    
+   margin:auto;
+    background: white;
+
+    border-radius: 7px;
+}
+
+.form-pages{
+    border-radius:7px;
+    width:15% ;
+    margin: 10px;
+    border: gray;
+    background: white;
+    display: inline-block;
+    justify-content: space-evenly;
+
+}
+.form__titulo{
+    background: rgb(255, 123, 0);
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size:30px;
+    border-top-left-radius: 3px;
+    border-bottom: 5px solid ;
+}
+
+.btn{
+    background: rgb(40, 177, 231);
+    color: black;
+    margin: auto;
+    padding: 10px 40px;
+
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 2px;
+
+}
+.btn-100{ 
+    width: 50%;
+    padding: 60px;
+    margin: 5PX;
+ 
+   
+}
+.centrar{
+    display:inline-flex;
+
+    border-radius: 7px;
+}
+
+.dfor{
+    display: inline-block ;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 0%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-evenly;
+    background: rgb(255, 123, 0);
+    border-top-left-radius:  7px;
+    border-top-right-radius:   7px;
+
+}
+
+p{
+    font-size: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    background-image: url("992689.jpg");
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
